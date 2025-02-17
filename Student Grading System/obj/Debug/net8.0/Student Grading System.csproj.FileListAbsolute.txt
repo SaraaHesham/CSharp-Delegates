@@ -1,0 +1,14 @@
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\bin\Debug\net8.0\Student Grading System.exe
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\bin\Debug\net8.0\Student Grading System.deps.json
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\bin\Debug\net8.0\Student Grading System.runtimeconfig.json
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\bin\Debug\net8.0\Student Grading System.dll
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\bin\Debug\net8.0\Student Grading System.pdb
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\obj\Debug\net8.0\Student Grading System.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\obj\Debug\net8.0\Student Grading System.AssemblyInfoInputs.cache
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\obj\Debug\net8.0\Student Grading System.AssemblyInfo.cs
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\obj\Debug\net8.0\Student Grading System.csproj.CoreCompileInputs.cache
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\obj\Debug\net8.0\Student Grading System.dll
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\obj\Debug\net8.0\refint\Student Grading System.dll
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\obj\Debug\net8.0\Student Grading System.pdb
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\obj\Debug\net8.0\Student Grading System.genruntimeconfig.cache
+D:\.NET Web Devolopment\C#\Delegates Projects\Student Grading System\obj\Debug\net8.0\ref\Student Grading System.dll
