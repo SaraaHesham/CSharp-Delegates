@@ -1,0 +1,14 @@
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\bin\Debug\net8.0\Temperature Sensor.exe
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\bin\Debug\net8.0\Temperature Sensor.deps.json
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\bin\Debug\net8.0\Temperature Sensor.runtimeconfig.json
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\bin\Debug\net8.0\Temperature Sensor.dll
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\bin\Debug\net8.0\Temperature Sensor.pdb
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\obj\Debug\net8.0\Temperature Sensor.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\obj\Debug\net8.0\Temperature Sensor.AssemblyInfoInputs.cache
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\obj\Debug\net8.0\Temperature Sensor.AssemblyInfo.cs
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\obj\Debug\net8.0\Temperature Sensor.csproj.CoreCompileInputs.cache
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\obj\Debug\net8.0\Temperature Sensor.dll
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\obj\Debug\net8.0\refint\Temperature Sensor.dll
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\obj\Debug\net8.0\Temperature Sensor.pdb
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\obj\Debug\net8.0\Temperature Sensor.genruntimeconfig.cache
+D:\.NET Web Devolopment\C#\Temperature Sensor\Temperature Sensor\obj\Debug\net8.0\ref\Temperature Sensor.dll
