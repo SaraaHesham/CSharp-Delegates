@@ -52,12 +52,22 @@ This system enables users to set temperature thresholds, monitor changes, and tr
 - **Events & Delegates (Old Version - Observer Pattern)**  
 - **Publish/Subscribe Pattern (New Version - Refactored)**  
 
-### 📂 Project Structure  
-- `Program.cs` – Main entry point of the application, handles user input.  
-- `Sensor.cs` – Generates temperature changes and notifies subscribers.  
-- `TemperatureArgs.cs` – Defines event data for temperature updates.  
+### 🗂 Project Structure  
+
+#### **Observer Pattern Version (Initial Implementation)**  
+- `Program.cs` – Main entry point of the application.  
+- `Sensor.cs` – Represents the temperature sensor and raises events when temperature changes.  
+- `TempArgs.cs` – Custom event arguments to pass temperature values.  
 - `Display.cs` – Displays real-time temperature updates.  
-- `Alarm.cs` – Triggers an alert when the temperature exceeds a set limit.  
+- `Alarm.cs` – Triggers an alert when the temperature exceeds the threshold.  
+
+#### **Publish/Subscribe Version (Refactored Implementation)**  
+- `Program.cs` – Main entry point; initializes components and handles user interaction.  
+- `Sensor.cs` – Publishes temperature updates to the broker instead of raising direct events.  
+- `TempArgs.cs` – Stores temperature values passed between components.  
+- `Display.cs` – Subscribes to temperature updates and displays them.  
+- `Alarm.cs` – Subscribes to temperature updates and triggers an alert when necessary.  
+- `Broker.cs` – **Acts as a central messaging hub that manages event subscriptions and dispatches temperature updates to all subscribers, implementing a decoupled Publish/Subscribe architecture.**  
 
 ---
 
