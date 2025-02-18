@@ -30,19 +30,27 @@ The **Student Grading System** is a console-based application built in **C#** to
 
 ## 🌡️ Temperature Sensor System  
 ### Description  
-The **Temperature Sensor System** is a console-based application built in **C#** that monitors temperature changes using **events and delegates**. The project demonstrates the practical implementation of the **Observer pattern**, where multiple components (such as a display and an alarm) react to temperature updates in real time.  
+The **Temperature Sensor System** is a real-time console-based application designed to simulate a temperature monitoring system. It is implemented using two different architectural approaches:  
 
-### 🎯 Features  
-- **Temperature Monitoring:** Continuously track and update temperature readings.  
-- **Alarm System:** Alerts when the temperature exceeds a predefined threshold.  
-- **Event-Driven Architecture:** Uses C# events and delegates for real-time updates.  
-- **User Interaction:** Allows users to set the temperature and configure the alarm threshold.  
-- **Console-Based Interface:** Provides a simple and interactive user experience.  
+- **Observer Pattern (Initial Version)** – Uses events and delegates for real-time temperature updates.
+- **Publish/Subscribe Pattern (Refactored Version)** – Introduces a broker to decouple publishers and subscribers for improved flexibility.  
+
+This system enables users to set temperature thresholds, monitor changes, and trigger alarms when the temperature exceeds predefined limits.  
+
+### 🎯 Features 
+- **Real-Time Temperature Monitoring:** Users can input and track temperature changes dynamically.  
+- **Alarm Notification System:** Automatically triggers an alert if the temperature exceeds a user-defined threshold.  
+- **Live Temperature Display:** Continuously updates and displays the current temperature.  
+- **Event-Driven Architecture:**  
+  - **Observer Pattern (Initial Version):** Uses events and delegates for real-time updates.  
+  - **Publish/Subscribe Pattern (Refactored Version):** Implements a broker for decoupled messaging and flexible event handling.  
+- **User-Friendly Console Interface:** Simple and interactive experience for setting and monitoring temperature values.  
 
 ### 🛠️ Technologies Used  
 - **C#**  
 - **.NET Console Application**  
-- **Events & Delegates** (Observer Pattern)  
+- **Events & Delegates (Old Version - Observer Pattern)**  
+- **Publish/Subscribe Pattern (New Version - Refactored)**  
 
 ### 📂 Project Structure  
 - `Program.cs` – Main entry point of the application, handles user input.  
@@ -53,15 +61,26 @@ The **Temperature Sensor System** is a console-based application built in **C#**
 
 ---
 
-### 📌 Topics Covered
-This project demonstrates key programming concepts, including:
+## 📖 Topics Covered  
 
-- **Delegates in C#:**
-  - **Func<T>:** Used to calculate student averages dynamically.
-  - **Predicate<T>:** Determines whether a student passes or fails.
-  - **Action<T>:** Displays formatted student results.
-- **Data Processing:** Efficient handling of student grades and evaluations.
-- **Console Application Development:** Creating user-friendly CLI applications.
+### **Observer Pattern (Before Update) & Publish/Subscribe Pattern (After Update)**  
+- Implementing a **decoupled event-driven architecture**.  
+
+### **Delegates in C#**  
+- **Func:** Used to calculate student averages dynamically.  
+- **Predicate:** Determines whether a student passes or fails.  
+- **Action:** Displays formatted student results.  
+
+### **Events & Event Handling (Before Update)**  
+- **EventHandler:** Used to manage temperature changes.  
+- **Custom Event Arguments:** Passing temperature values through events.  
+
+### **Publish/Subscribe Pattern (After Update)**  
+- **Broker-based message distribution:** Decoupling publishers and subscribers.  
+- **Flexible and extensible subscription model.**  
+
+### **Console Application Development**  
+- Creating **user-friendly CLI applications** with real-time updates.  
 
 ---
 
