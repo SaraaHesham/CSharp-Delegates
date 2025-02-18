@@ -28,6 +28,32 @@ The **Student Grading System** is a console-based application built in **C#** to
 
 ---
 
+# 🌡️ Temperature Sensor System  
+
+## Description  
+The **Temperature Sensor System** is a console-based application built in **C#** that monitors temperature changes using **events and delegates**. The project demonstrates the practical implementation of the **Observer pattern**, where multiple components (such as a display and an alarm) react to temperature updates in real time.  
+
+## 🎯 Features  
+- **Temperature Monitoring:** Continuously track and update temperature readings.  
+- **Alarm System:** Alerts when the temperature exceeds a predefined threshold.  
+- **Event-Driven Architecture:** Uses C# events and delegates for real-time updates.  
+- **User Interaction:** Allows users to set the temperature and configure the alarm threshold.  
+- **Console-Based Interface:** Provides a simple and interactive user experience.  
+
+## 🛠️ Technologies Used  
+- **C#**  
+- **.NET Console Application**  
+- **Events & Delegates** (Observer Pattern)  
+
+## 📂 Project Structure  
+- `Program.cs` – Main entry point of the application, handles user input.  
+- `Sensor.cs` – Generates temperature changes and notifies subscribers.  
+- `TemperatureArgs.cs` – Defines event data for temperature updates.  
+- `Display.cs` – Displays real-time temperature updates.  
+- `Alarm.cs` – Triggers an alert when the temperature exceeds a set limit.  
+
+---
+
 ## 📌 Topics Covered
 This project demonstrates key programming concepts, including:
 
